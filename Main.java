@@ -28,6 +28,15 @@ public class Main {
                 case 2:
                     miGestor.mostrarTodo();
                     break;
+                case 3:
+                    System.out.print("Introduce el título del juego a borrar: ");
+                    String tituloBorrar = sc.nextLine();
+                    if (miGestor.eliminar(tituloBorrar)) {
+                        System.out.println("❌ Juego eliminado correctamente.");
+                    } else {
+                        System.out.println("⚠️ No se encontró ningún juego con ese título.");
+                    }
+                    break;
             }
         } while (opcion != 0);
     }

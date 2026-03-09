@@ -22,5 +22,14 @@ public class GestorInventario {
         }
     }
     
-    // Aquí podrías añadir luego: eliminar(String titulo) o buscar(String titulo)
-}
+public boolean eliminar(String tituloABuscar) {
+    // Recorremos la lista para buscar el título
+    for (int i = 0; i < lista.size(); i++) {
+        // Usamos .equalsIgnoreCase para que no importe si escriben en mayúsculas o minúsculas
+        if (lista.get(i).getTitulo().equalsIgnoreCase(tituloABuscar)) {
+            lista.remove(i);
+            return true; // Encontrado y borrado
+        }
+    }
+    return false; // No se encontró
+}}
