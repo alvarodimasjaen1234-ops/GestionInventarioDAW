@@ -12,7 +12,7 @@ Este es mi primer proyecto de **1º de DAW** (Desarrollo de Aplicaciones Web). E
 
 - [x] Añadir nuevos videojuegos al sistema.
 - [x] Listar todos los juegos guardados.
-- [ ] Eliminar juegos (Próximamente).
+- [x] Eliminar juegos (Próximamente).
 
 ## 🚀 Cómo ejecutarlo
 
