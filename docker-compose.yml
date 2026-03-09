@@ -1,0 +1,6 @@
+services:
+  app-videojuegos:
+    build: .
+    container_name: mi-gestor-daw
+    stdin_open: true 
+    tty: true
